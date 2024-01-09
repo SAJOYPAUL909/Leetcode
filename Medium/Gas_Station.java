@@ -1,8 +1,9 @@
+import java.util.Arrays;
+
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         int tank = 0;
         int ans = 0;
-        int arr[] = new int[gas.length];
         int gassum = Arrays.stream(gas).sum();
         int costsum = Arrays.stream(cost).sum();
 
