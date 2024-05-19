@@ -1,6 +1,5 @@
 class Solution {
-    public long maximumValueSum(int[] nums, int k, int[][] edges) 
-    {
+    public long maximumValueSum(int[] nums, int k, int[][] edges) {
         long ans = 0;
         int count = 0;
         int res = Integer.MAX_VALUE;
